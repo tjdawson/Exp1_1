@@ -1,5 +1,4 @@
 <!--braces in the CSS are doubled so that we can turn this file into a string and call the .format method in python-->
-<body onload="setFocusToTextBox()">
 <div>
 
 <table cellpadding="10" cellspacing="4">
@@ -11,9 +10,17 @@
       </td>
     </tr>
     <tr>
-        In this picture, I see a/an <input id="textfield" name="input" type="text" size="20" class="obligatory"/>
+        <td>
+            In this picture, I see a/an <input id="textfield" name="input" type="text" size="20" class="obligatory"/>
+        </td>
     </tr>
 </table>
 
 </div>
-</body>
+
+<script type="text/javascript">
+    function setFocusToTextBox(){
+    document.getElementById("textfield").focus();
+}
+    setFocusToTextBox()
+</script>

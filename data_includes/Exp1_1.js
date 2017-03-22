@@ -7,12 +7,6 @@
 // set send results to manual
 var manualSendResults = true;
 
-//
-function setFocusToTextBox(){
-    document.getElementById("textfield").focus();
-}
-//
-
 var shuffleSequence = seq(
 "intro1", "intro2",
     // The item sequence goes here
