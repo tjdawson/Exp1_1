@@ -8,6 +8,10 @@
 var manualSendResults = true;
 
 //
+function setFocusToTextBox(){
+    document.getElementById("textfield").focus();
+}
+//
 
 var shuffleSequence = seq(
 "intro1", "intro2",
